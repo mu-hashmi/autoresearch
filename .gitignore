@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+worktrees/
+results/
+queue/
+
+# Agent prompt files (generated per-session by launchers)
+CLAUDE.md
+AGENTS.md
+
+# Experimental code/artifacts
+dev/
+run.log
+# Revis runtime state stays untracked because it is ephemeral local monitor data.
+.revis/runtime/
+# Local sandboxes are disposable working clones, not part of the source tree.
+.revis/agents/
+# The local coordination remote is an implementation detail for local-mode swarms.
+.revis/coordination.git/
